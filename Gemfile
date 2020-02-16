@@ -14,11 +14,11 @@ group :mysql do
   gem 'mysql2'
 end
 
-# group :oracle do
-#   gem 'ruby-oci8'
-#   gem 'ruby-plsql'
-#   gem 'activerecord-oracle_enhanced-adapter'
-# end
+group :oracle do
+  gem 'ruby-oci8'
+  gem 'ruby-plsql'
+  gem 'activerecord-oracle_enhanced-adapter'
+end
 
 group :postgresql do
   gem 'pg'
